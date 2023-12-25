@@ -1,16 +1,6 @@
 transformers
 transformers[sentencepiece]
-dataset
-pylint
-pytest
-black
-mlflow
-ipython 
-gdown
-fire
 fastapi
 uvicorn[stadard]
-mlflow
-pandas
 pydantic
 torch
