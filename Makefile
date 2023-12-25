@@ -10,4 +10,7 @@ format:
 lint: 
 	pylint --disable=R,C, *.py
 
-all: install lint test
+model:
+	python3 download_model.py
+
+all: install lint test format model
