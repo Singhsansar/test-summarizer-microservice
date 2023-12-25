@@ -6,7 +6,7 @@ import os
 file_id = '1-1IBOAx3NEc0qDiHyLJcCvIs9SM2RIEo'
 file_url = f'https://drive.google.com/uc?id={file_id}'
 downloaded_file = 'downloaded_file.zip'
-extracted_folder = 'Model'
+extracted_folder = 'model'
 
 gdown.download(file_url, downloaded_file, quiet=False)
 
