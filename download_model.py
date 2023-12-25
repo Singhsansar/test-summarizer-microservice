@@ -3,7 +3,7 @@ import zipfile
 import os
 
 # Replace 'your_file_id' with the actual file ID from the provided link
-file_id = '1-1IBOAx3NEc0qDiHyLJcCvIs9SM2RIEo'
+file_id = '1-1fal00GfEfd2FmmS_D8XNmx8ahsEjnT'
 file_url = f'https://drive.google.com/uc?id={file_id}'
 downloaded_file = 'downloaded_file.zip'
 extracted_folder = 'model'
