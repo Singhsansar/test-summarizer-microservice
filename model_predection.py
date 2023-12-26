@@ -1,10 +1,10 @@
 import torch
-from transformers import PegasusTokenizer, PegasusForConditionalGeneration
+from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
 import os
 
 model_path = "model"
-model = PegasusForConditionalGeneration.from_pretrained(model_path)
-tokenizer = PegasusTokenizer.from_pretrained(model_path)
+model = AutoModelForSeq2SeqLM.from_pretrained(model_path)
+tokenizer = AutoTokenizer.from_pretrained(model_path)
 
 
 def predict(text: str, length: int = 20):
